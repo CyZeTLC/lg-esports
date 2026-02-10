@@ -1,22 +1,22 @@
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/HSBI_Logo_RGB_schwarz.svg/1200px-HSBI_Logo_RGB_schwarz.svg.png" alt="Logo" width="600" height="120">
 
-  <h3 align="center">Mars Logisitik Verwaltung - Projekt</h3>
+  <h3 align="center">LG ESports - Homepage</h3>
 
   <p align="center">
-    ERD & PDM, SQL Queries, TypeScript WepApp, php backend, ..
+    TypeScript WepApp, php backend, ..
     <br />
-    <a href="https://github.com/CyZeTLC/Mars-Colony-Project/issues">Fehler melden</a>
+    <a href="https://github.com/CyZeTLC/lg-esports/issues">Fehler melden</a>
     ·
-    <a href="https://github.com/CyZeTLC/Mars-Colony-Project/pulls">Feature Request</a>
+    <a href="https://github.com/CyZeTLC/lg-esports/pulls">Feature Request</a>
   </p>
 </div>
 
 <div align="center">
 
-![GitHub License](https://img.shields.io/github/license/CyZeTLC/Mars-Colony-Project?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/CyZeTLC/Mars-Colony-Project?style=for-the-badge)
-![Letze Aenderung](https://img.shields.io/github/last-commit/CyZeTLC/Mars-Colony-Project?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/CyZeTLC/lg-esports?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/CyZeTLC/lg-esports?style=for-the-badge)
+![Letze Aenderung](https://img.shields.io/github/last-commit/CyZeTLC/lg-esports?style=for-the-badge)
 
 </div>
 
@@ -40,8 +40,8 @@ Dieses Repository enthält alle technischen Komponenten für das Semesterprojekt
 | **Frontend Framework** | **React** (mit Hooks) | Komponentenbasiertes UI-Design. |
 | **Sprache** | **TypeScript** | Stellt Typensicherheit und bessere Wartbarkeit sicher. |
 | **Build Tool** | **Vite** | Schneller Development-Server und effizientes Bundling. |
-| **Styling** | **Tailwind CSS v4** | Utility-First CSS-Framework für das futuristische Mars-Design. |
-| **Backend/Daten** | **Oracle Database** | Der geplante Datenbank-Layer für die persistente Speicherung der Kolonie-Daten. |
+| **Styling** | **Tailwind CSS v3** | Utility-First CSS-Framework für das futuristische Mars-Design. |
+| **Backend/Daten** | **Oracle Database** | Der geplante Datenbank-Layer für die persistente Speicherung der Spieler-Daten. |
 
 ---
 
