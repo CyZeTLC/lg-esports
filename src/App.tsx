@@ -70,6 +70,18 @@ const LOW_TEAM: Player[] = [
     history: [true, true, false, true, true],
     stats: { kd: 1.25, winrate: '62%', acs: 245, hs: '28%' },
     socials: { twitter: '@hades' }
+  },
+  {
+    id: '02',
+    name: 'Jonsens',
+    role: 'Sentinel',
+    rank: 'Gold 3',
+    rankIcon: '',
+    mainAgent: 'Killjoy',
+    agentImage: '',
+    history: [false, true, false, true, true],
+    stats: { kd: 1.25, winrate: '62%', acs: 245, hs: '28%' },
+    socials: { twitter: '@jonsens' }
   }
 ];
 
