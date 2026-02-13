@@ -10,6 +10,7 @@ function HomePage() {
 
             <main className="bg-gh-bg text-gh-text p-8">
                 <h1 className="text-4xl font-bold mb-4">Lonely Gods Esports</h1>
+                <p className="text-lg mb-6">Welcome to the official website of Lonely Gods Esports! We are a competitive gaming organization dedicated to excellence in esports. Our teams compete in valorant, striving for victory and fostering a strong community of gamers.</p>
             </main>
 
             <Footer />
