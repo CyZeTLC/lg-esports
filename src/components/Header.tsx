@@ -1,5 +1,5 @@
-// components/Header.tsx
 import React from 'react';
+import { setCurrentPage } from '../utils/pageUtils';
 
 export const Header: React.FC = () => {
     return (
@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 <div className="flex items-center gap-6">
                     {/* Orga Logo / Home */}
-                    <div className="flex items-center gap-3 cursor-pointer group">
+                    <div className="flex items-center gap-3 cursor-pointer group" onClick={() => setCurrentPage("home")}>
                         <div className="w-8 h-8 bg-vlr-red flex items-center justify-center rounded-sm rotate-45 group-hover:rotate-0 transition-transform duration-300">
                             <span className="text-white font-black -rotate-45 group-hover:rotate-0 transition-transform">LG</span>
                         </div>
@@ -16,11 +16,12 @@ export const Header: React.FC = () => {
                         </span>
                     </div>
 
-                    {/* Navigation Links - GitHub Style */}
+                    {/* Navigation Links */}
                     <div className="flex items-center gap-4 text-sm font-medium text-gh-text">
-                        <a href="#roster" className="hover:text-white transition-colors">Teams</a>
-                        <a href="#stats" className="hover:text-white transition-colors">Stats</a>
-                        <a href="#about" className="hover:text-white transition-colors">About</a>
+                        <a href="#home" onClick={() => setCurrentPage("home")} className="hover:text-white transition-colors">Home</a>
+                        <a href="#roster" onClick={() => setCurrentPage("roster")} className="hover:text-white transition-colors">Teams</a>
+                        <a href="#stats" onClick={() => setCurrentPage("stats")} className="hover:text-white transition-colors">Stats</a>
+                        <a href="#about" onClick={() => setCurrentPage("about")} className="hover:text-white transition-colors">About</a>
                     </div>
                 </div>
 
