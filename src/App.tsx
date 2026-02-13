@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getCurrentPage } from './utils/pageUtils';
 import RoasterPage from './pages/RoasterPage';
 import HomePage from './pages/HomePage';

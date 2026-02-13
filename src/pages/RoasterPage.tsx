@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { PlayerCard } from '../components/PlayerCard';
 import { PlayerModal } from '../components/PlayerModal';
 import { Header } from '../components/Header';
