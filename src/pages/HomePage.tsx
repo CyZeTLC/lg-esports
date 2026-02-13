@@ -1,5 +1,6 @@
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import NewsBox from '../components/NewsBox';
 
 function HomePage() {
     return (
@@ -14,11 +15,11 @@ function HomePage() {
 
                 <section id="news" className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4">Latest News</h2>
-                    <ul className="list-disc list-inside">
-                        <li className="mb-2">New team roster announced for upcoming tournament season.</li>
-                        <li className="mb-2">Our high team has secured a spot in the playoffs of the premier championship.</li>
-                        <li className="mb-2">Community event scheduled for next weekend - stay tuned for more details!</li>
-                    </ul>
+                    <div className="grid md:grid-cols-3 gap-4">
+                        <NewsBox title="New Team Roster" description="Our new roster has been announced for the upcoming tournament season." url="/news/new-roster" />
+                        <NewsBox title="Playoffs Spot" description="Our high team has secured a spot in the playoffs of the premier championship." url="/news/playoffs-spot" />
+                        <NewsBox title="Community Event" description="Community event scheduled for next weekend - stay tuned for more details!" url="/news/community-event" />
+                    </div>
                 </section>
             </main>
 
