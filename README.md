@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/HSBI_Logo_RGB_schwarz.svg/1200px-HSBI_Logo_RGB_schwarz.svg.png" alt="Logo" width="600" height="120">
+  <img src="https://mmos.com/wp-content/uploads/2021/06/valorant-heroes-grayscale-banner.jpg" alt="Logo" width="600" height="120">
 
   <h3 align="center">LG ESports - Homepage</h3>
 
