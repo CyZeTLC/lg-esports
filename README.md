@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://mmos.com/wp-content/uploads/2021/06/valorant-heroes-grayscale-banner.jpg" alt="Logo" width="600" height="120">
 
-  <h3 align="center">LG ESports - Homepage</h3>
+  <h3 align="center">LG-ESports - Homepage</h3>
 
   <p align="center">
     TypeScript WepApp, php backend, etc.
