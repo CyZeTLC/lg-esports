@@ -4,7 +4,7 @@
   <h3 align="center">LG ESports - Homepage</h3>
 
   <p align="center">
-    TypeScript WepApp, php backend, ..
+    TypeScript WepApp, php backend, etc.
     <br />
     <a href="https://github.com/CyZeTLC/lg-esports/issues">Fehler melden</a>
     ·
